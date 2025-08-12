@@ -8,7 +8,7 @@ type Filme = {
   imagem: string;
 };
 
-let filmes: Filme[] = [
+const filmes: Filme[] = [
   {
     id: 1,
     titulo: "Homem de Ferro",

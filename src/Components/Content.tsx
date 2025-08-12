@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 
 type Filme = {
   id: number;
@@ -94,7 +95,7 @@ export default function Home() {
        <div className="container mx-auto flex justify-between sm:w-sm md:w-md max-md:flex-col lg:w-3xl mb-5 mt-15 gap-10">
         <div className="text-2xl font-semibold mb-5 grid justify-center tex-center w-full">
           <p className="px-2 italic text-md rounded-lg bg-blue-600 text-white text-center">Adicione um Novo Filme</p>
-          <img className="rounded-full mt-5 object-cover" src="https://static.vecteezy.com/system/resources/previews/035/868/900/non_2x/illustration-of-upload-vector.jpg" width={250} height={50} alt="" />
+          <Image className="rounded-full mt-5 object-cover" src="/upload.jpg" width={250} height={50} alt="Descrição" />
         </div>
         <form
           onSubmit={handleSubmit}
