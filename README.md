@@ -5,7 +5,7 @@ A aplicação inclui um front-end estilizado com Tailwind CSS, onde é possível
 
 ## Deploy na Vercel - https://filmes-api-nextjs-5y9e.vercel.app/
 
-## 🚀 Funcionalidades
+## 🚀 Funcionalidades 
 
 GET → Listar todos os filmes ou buscar por ID
 
