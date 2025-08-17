@@ -25,9 +25,6 @@ TypeScript
 
 Tailwind CSS
 
-# Instalar dependências
-npm install  
-
 # Rodar em modo de desenvolvimento
 npm run dev
 
